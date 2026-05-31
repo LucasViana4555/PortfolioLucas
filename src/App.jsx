@@ -44,6 +44,8 @@ const content = {
       premierDesc: "Resolução do acesso fragmentado a dados esportivos por meio de um serviço full-stack estruturado com validações de negócio, prevenção de duplicidades e testes de integração.",
       estoqueDesc: "Projeto em equipe que resolveu problemas de controle de estoque manual através de uma interface web para cadastro, atualização e persistência de produtos.",
       crudDesc: "API REST com Spring Boot focada em boas práticas de CRUD, persistência de dados com JPA/Hibernate e integração segura.",
+      portfolioTitle: "LucasLuqi Portfolio",
+      portfolioDesc: "Este próprio website de portfolio responsivo construído com React e Vite, estilizado com design system Neobrutalista customizado e identidade visual de morcegos.",
       xp: [
         {
           role: "Aprendiz de Desenvolvimento",
@@ -173,6 +175,8 @@ const content = {
       premierDesc: "Solves fragmented sports data access by creating a full-stack REST API service with business logic validation, duplicates prevention, and integration testing.",
       estoqueDesc: "Team project solving manual inventory tracking issues with a web interface to register, update, and persist products in MySQL.",
       crudDesc: "Spring Boot REST API focused on standard CRUD practices, JPA/Hibernate data mapping, and secure integration.",
+      portfolioTitle: "LucasLuqi Portfolio",
+      portfolioDesc: "This very portfolio website built with React and Vite, featuring a custom Neobrutalist design system and bat-themed visual identity.",
       xp: [
         {
           role: "Development Apprentice",
@@ -675,6 +679,26 @@ function App() {
                       <span className="tech-tag-neobrutal">Spring Boot</span>
                       <span className="tech-tag-neobrutal">JPA/Hibernate</span>
                       <span className="tech-tag-neobrutal">PostgreSQL</span>
+                    </div>
+                  </div>
+
+                  {/* PROJECT 5: Portfolio */}
+                  <div className="neobrutal-card project-neobrutal">
+                    <div className="project-meta">
+                      <FaFolder size={30} color="var(--accent-purple)" />
+                      <div className="project-icons-right">
+                        <a href="https://github.com/LucasViana4555/PortfolioLucas" target="_blank" rel="noreferrer" className="proj-link" title={t.professional.viewCode}>
+                          <FaGithub />
+                        </a>
+                      </div>
+                    </div>
+                    <h3 className="project-heading">{t.professional.portfolioTitle}</h3>
+                    <p className="project-body">{t.professional.portfolioDesc}</p>
+                    <div className="project-tags">
+                      <span className="tech-tag-neobrutal">React</span>
+                      <span className="tech-tag-neobrutal">Vite</span>
+                      <span className="tech-tag-neobrutal">Vanilla CSS</span>
+                      <span className="tech-tag-neobrutal">JavaScript</span>
                     </div>
                   </div>
                 </div>
