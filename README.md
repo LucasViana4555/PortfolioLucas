@@ -1,57 +1,44 @@
 # 🦇 lucasluqi.dev — Portfolio Pessoal
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Neobrutalism-Design-purple?style=for-the-badge" alt="Neobrutalism Design" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
 </div>
 
 <br />
 
-Bem-vindo ao repositório do meu portfolio pessoal! Este projeto é uma vitrine interativa das minhas habilidades como desenvolvedor backend Jr. focado no ecossistema Java, além de demonstrar meu interesse por design de interfaces (UI/UX) e desenvolvimento frontend moderno com React.
+Bem-vindo ao repositório do meu portfolio pessoal! Este projeto é uma SPA (Single Page Application) desenvolvida em **React** e **Vite** para apresentar minha trajetória profissional, projetos, habilidades e hobbies de forma interativa.
 
-A interface adota uma estética **Neobrutalista** única, combinada com uma identidade visual inspirada em morcegos (com partículas flutuantes, animações personalizadas de transição e um loader temático).
+A interface possui uma estética **Neobrutalista** com identidade visual inspirada em morcegos (com partículas dinâmicas no fundo, transições personalizadas de tela e um carregador temático).
 
 > 💡 **Tagline:** *"Arquitetando APIs nas sombras, escalando soluções no mundo real."*
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas neste Repositório
 
-### Backend & Banco de Dados
-*   **Java & Spring Boot:** Desenvolvimento de APIs RESTful robustas, segurança (Spring Security/JWT), persistência (JPA/Hibernate) e migrações de banco (Flyway).
-*   **PostgreSQL & MySQL:** Modelagem relacional, queries otimizadas e administração de bases de dados.
-*   **PHP & Laravel:** Desenvolvimento web ágil e estruturação MVC.
+Este projeto frontend foi construído utilizando:
 
-### Frontend
-*   **React & Next.js:** Construção de componentes dinâmicos e SPA/SSR performáticos.
-*   **CSS3 (Vanilla) & Tailwind CSS:** Estilização responsiva personalizada, variáveis de design e animações sob medida.
-*   **Vite:** Bundler ultra-rápido para desenvolvimento frontend local.
+*   **React (v19):** Para a estruturação de componentes reutilizáveis, gerenciamento de estados e controle de abas/traduções.
+*   **Vite:** Como ambiente de build rápido e servidor de desenvolvimento local.
+*   **CSS3 (Vanilla):** Estilização customizada seguindo o design system Neobrutalista, incluindo animações e variáveis CSS para suporte a temas.
+*   **React Icons:** Conjunto de ícones para compor a interface.
 
 ---
 
-## ✨ Funcionalidades Principais do Portfolio
+## ✨ Funcionalidades do Portfolio
 
-*   **Suporte Bilíngue Nativo (PT/EN):** Tradução instantânea de todo o conteúdo da página com um simples clique.
-*   **Modo Escuro / Claro Dinâmico:** Alternância de tema fluida com cores neobrutalistas adaptadas (contraste alto, bordas marcadas e sombras deslocadas).
-*   **Animações e Efeitos Visuais:**
-    *   *BatParticles:* Efeito de partículas (morcegos e poeira) em segundo plano renderizado dinamicamente em Canvas.
-    *   *BatTransition:* Transição de tela personalizada com tema de morcego ao navegar pelas abas principais.
-    *   *InitialLoader:* Tela de carregamento temática com animação pulsante para uma experiência imersiva de entrada.
-*   **Download de Currículos (CV):** Dropdowns interativos neobrutalistas que permitem ao visitante baixar meu CV em Português ou Inglês.
-*   **Formulário de Contato Interativo:** Validação e feedback imediato de envio com feedback interativo.
-
----
-
-## 📂 Projetos em Destaque no Portfolio
-
-1.  **AtivHub:** LMS gamificado completo com sistema de missões, XP, rankings e níveis. Desenvolvido com Spring Boot, PostgreSQL, Next.js e JWT.
-2.  **Estatísticas da Premier League:** API REST full-stack e painel web para visualização de dados esportivos, prevenção de duplicidades e regras de negócio estruturadas.
-3.  **Sistema de Estoque:** Aplicação web para cadastro, atualização e persistência de produtos desenvolvida em equipe usando PHP, Laravel e MySQL.
-4.  **Crud Spring Boot:** API demonstrativa focada em padrões limpos de persistência JPA/Hibernate.
+*   **Suporte Bilíngue Nativo (PT/EN):** Alternância instantânea de idioma de todo o conteúdo.
+*   **Tema Claro/Escuro (Light/Dark Mode):** Alternador dinâmico de tema que atualiza as variáveis de estilo neobrutalistas em tempo real.
+*   **Efeitos Visuais Interativos:**
+    *   *BatParticles:* Partículas flutuantes com formato de morcego renderizadas de forma otimizada via Canvas.
+    *   *BatTransition:* Cortina animada de transição rápida ao mudar de aba.
+    *   *InitialLoader:* Carregador temático exibido na entrada da aplicação.
+*   **Download de CV:** Menu dropdown neobrutalista para baixar o currículo em diferentes idiomas.
+*   **Formulário de Contato:** Interface limpa para envio de mensagens com validação visual e animações de feedback.
 
 ---
 
@@ -85,8 +72,6 @@ Para rodar este projeto em sua máquina local, certifique-se de ter o **Node.js*
 
 ## 🦇 Contato & Redes Sociais
 
-Você pode me encontrar nas seguintes redes:
-
 *   **E-mail:** [lucasv4555@gmail.com](mailto:lucasv4555@gmail.com)
 *   **LinkedIn:** [linkedin.com/in/olucasv/](https://www.linkedin.com/in/olucasv/)
 *   **Twitter / X:** [@komoridev](https://x.com/komoridev)
@@ -95,5 +80,5 @@ Você pode me encontrar nas seguintes redes:
 ---
 
 <p align="center">
-  Desenvolvido com dedicação por <b>Lucas Viana</b>. © 2026
+  Desenvolvido por <b>Lucas Viana</b>. © 2026
 </p>
