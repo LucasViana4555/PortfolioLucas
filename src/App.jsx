@@ -488,14 +488,11 @@ function App() {
                     <div className="radar-ring radar-ring-outer" />
                     <div className="radar-ring radar-ring-inner" />
                     <div className="avatar-image-wrapper">
-                      {/* 
                       <img 
                         src="https://github.com/LucasViana4555.png" 
                         alt="Lucas Viana" 
                         className="avatar-img"
                       />
-                      */}
-                      <div className="avatar-empty-placeholder" />
                     </div>
                   </div>
                 </div>
