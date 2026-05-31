@@ -46,6 +46,8 @@ const content = {
       crudDesc: "API REST com Spring Boot focada em boas práticas de CRUD, persistência de dados com JPA/Hibernate e integração segura.",
       portfolioTitle: "Lucas Viana Portfolio",
       portfolioDesc: "Este próprio website de portfolio responsivo construído com React e Vite, estilizado com design system Neobrutalista customizado e identidade visual de morcegos.",
+      viewFrontend: "Ver Código Frontend (Next.js)",
+      viewBackend: "Ver Código Backend (Spring Boot)",
       xp: [
         {
           role: "Aprendiz de Desenvolvimento",
@@ -177,6 +179,8 @@ const content = {
       crudDesc: "Spring Boot REST API focused on standard CRUD practices, JPA/Hibernate data mapping, and secure integration.",
       portfolioTitle: "Lucas Viana Portfolio",
       portfolioDesc: "This very portfolio website built with React and Vite, featuring a custom Neobrutalist design system and bat-themed visual identity.",
+      viewFrontend: "View Frontend Code (Next.js)",
+      viewBackend: "View Backend Code (Spring Boot)",
       xp: [
         {
           role: "Development Apprentice",
@@ -594,8 +598,13 @@ function App() {
                     <div className="project-meta">
                       <div className="neobrutal-badge">{t.professional.featuredBadge}</div>
                       <div className="project-icons-right">
-                        <a href="https://github.com/LucasViana4555" target="_blank" rel="noreferrer" className="proj-link" title={t.professional.viewCode}>
+                        <a href="https://github.com/LucasViana4555/ativhub-frontend" target="_blank" rel="noreferrer" className="proj-link" title={t.professional.viewFrontend} style={{ position: 'relative' }}>
                           <FaGithub />
+                          <span style={{ fontSize: '0.55rem', position: 'absolute', bottom: '-4px', right: '-4px', background: 'var(--accent-purple)', color: '#fff', padding: '0px 3px', border: '2px solid var(--border-color)', fontWeight: 'bold' }}>FE</span>
+                        </a>
+                        <a href="https://github.com/LucasViana4555/ativhub-backend" target="_blank" rel="noreferrer" className="proj-link" title={t.professional.viewBackend} style={{ position: 'relative' }}>
+                          <FaGithub />
+                          <span style={{ fontSize: '0.55rem', position: 'absolute', bottom: '-4px', right: '-4px', background: 'var(--accent-purple)', color: '#fff', padding: '0px 3px', border: '2px solid var(--border-color)', fontWeight: 'bold' }}>BE</span>
                         </a>
                         <a href="https://ativhub.vercel.app" target="_blank" rel="noreferrer" className="proj-link" title={t.professional.visitProject}>
                           <FaExternalLinkAlt />
