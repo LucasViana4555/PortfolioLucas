@@ -25,7 +25,7 @@ const content = {
       tag: "ARQUITETANDO APIS NAS SOMBRAS, ESCALANDO SOLUÇÕES NO MUNDO REAL",
       name: "Lucas Viana",
       role: "Desenvolvedor Backend Jr. — Java",
-      bio: "Meu nome é Lucas, mas pode me chamar de Luqi! Construindo soluções robustas, escaláveis e eficientes. Focado no desenvolvimento de APIs de alto desempenho e arquiteturas sólidas no ecossistema Java. ☕💻",
+      bio: "Sou o Lucas Viana! Construindo soluções robustas, escaláveis e eficientes. Focado no desenvolvimento de APIs de alto desempenho e arquiteturas sólidas no ecossistema Java. ☕💻",
       ctaProjects: "Meus Projetos",
       ctaCv: "Baixar CV",
     },
@@ -44,7 +44,7 @@ const content = {
       premierDesc: "Resolução do acesso fragmentado a dados esportivos por meio de um serviço full-stack estruturado com validações de negócio, prevenção de duplicidades e testes de integração.",
       estoqueDesc: "Projeto em equipe que resolveu problemas de controle de estoque manual através de uma interface web para cadastro, atualização e persistência de produtos.",
       crudDesc: "API REST com Spring Boot focada em boas práticas de CRUD, persistência de dados com JPA/Hibernate e integração segura.",
-      portfolioTitle: "LucasLuqi Portfolio",
+      portfolioTitle: "Lucas Viana Portfolio",
       portfolioDesc: "Este próprio website de portfolio responsivo construído com React e Vite, estilizado com design system Neobrutalista customizado e identidade visual de morcegos.",
       xp: [
         {
@@ -156,7 +156,7 @@ const content = {
       tag: "ARCHITECTING APIS IN THE SHADOWS, SCALING SOLUTIONS IN THE REAL WORLD",
       name: "Lucas Viana",
       role: "Junior Backend Developer — Java",
-      bio: "My name is Lucas, but you can call me Luqi! Building robust, scalable, and efficient solutions. Focused on high-performance REST APIs and solid architectures in the Java ecosystem. ☕💻",
+      bio: "I'm Lucas Viana! Building robust, scalable, and efficient solutions. Focused on high-performance REST APIs and solid architectures in the Java ecosystem. ☕💻",
       ctaProjects: "My Projects",
       ctaCv: "Download CV",
     },
@@ -175,7 +175,7 @@ const content = {
       premierDesc: "Solves fragmented sports data access by creating a full-stack REST API service with business logic validation, duplicates prevention, and integration testing.",
       estoqueDesc: "Team project solving manual inventory tracking issues with a web interface to register, update, and persist products in MySQL.",
       crudDesc: "Spring Boot REST API focused on standard CRUD practices, JPA/Hibernate data mapping, and secure integration.",
-      portfolioTitle: "LucasLuqi Portfolio",
+      portfolioTitle: "Lucas Viana Portfolio",
       portfolioDesc: "This very portfolio website built with React and Vite, featuring a custom Neobrutalist design system and bat-themed visual identity.",
       xp: [
         {
@@ -437,7 +437,7 @@ function App() {
                 <div className="hero-info">
                   <div className="hero-tag">{t.hero.tag}</div>
                   <h1 className="hero-title">
-                    Lucas <span>"Luqi"</span> Viana
+                    Lucas Viana
                   </h1>
                   <h2 className="hero-subtitle">{t.hero.role}</h2>
                   <p className="hero-bio">{t.hero.bio}</p>
