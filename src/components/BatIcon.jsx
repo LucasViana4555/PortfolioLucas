@@ -1,0 +1,15 @@
+import React from 'react';
+
+export default function BatIcon({ className = '', size = 24, color = 'currentColor', style = {} }) {
+  return (
+    <svg 
+      viewBox="0 0 100 50" 
+      width={size} 
+      height={size / 2} 
+      className={className}
+      style={{ display: 'inline-block', fill: color, transition: 'fill 0.3s ease', ...style }}
+    >
+      <path d="M 50 20 L 46 10 L 43 22 C 30 15, 20 10, 5 15 C 12 25, 15 30, 20 32 C 24 30, 28 32, 34 30 C 38 32, 42 38, 48 42 L 50 36 L 52 42 C 58 38, 62 32, 66 30 C 72 32, 76 30, 80 32 C 85 30, 88 25, 95 15 C 80 10, 70 15, 57 22 L 54 10 Z" />
+    </svg>
+  );
+}

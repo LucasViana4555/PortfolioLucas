@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+
+:root {
+  --bg-color: #050508;
+  --bg-grid-color: rgba(139, 92, 246, 0.035);
+  --card-bg: #0d0c13;
+  --text-main: #f3f4f6;
+  --text-muted: #9ca3af;
+  --accent-purple: #8b5cf6;
+  --accent-purple-glow: rgba(139, 92, 246, 0.45);
+  --accent-purple-light: #a78bfa;
+  --border-color: #000000;
+  
+  --font-body: 'Outfit', sans-serif;
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+[data-theme='light'] {
+  --bg-color: #f7f6f9;
+  --bg-grid-color: rgba(139, 92, 246, 0.06);
+  --card-bg: #ffffff;
+  --text-main: #0c0b11;
+  --text-muted: #5b5a64;
+  --accent-purple: #7c3aed;
+  --accent-purple-glow: rgba(124, 58, 237, 0.25);
+  --accent-purple-light: #6d28d9;
+  --border-color: #0c0b11;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  background-image: 
+    linear-gradient(var(--bg-grid-color) 1.5px, transparent 1.5px),
+    linear-gradient(90deg, var(--bg-grid-color) 1.5px, transparent 1.5px);
+  background-size: 45px 45px;
+  background-position: center center;
+  color: var(--text-main);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border: 2px solid var(--bg-color);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-purple);
+}
+
+/* Utility styles for global scroll locking */
+body.no-scroll {
+  overflow: hidden;
+}
