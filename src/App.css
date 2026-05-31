@@ -767,8 +767,18 @@ main {
 /* Projects Layout (Personal Tab) */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2rem;
+}
+
+.certs-grid {
+  grid-template-columns: 1fr 1fr;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
 }
 
 .project-neobrutal {
@@ -1020,6 +1030,10 @@ main {
     gap: 3rem;
   }
 
+  .certs-grid {
+    grid-template-columns: 1fr;
+  }
+
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 3.5rem;
@@ -1045,10 +1059,67 @@ main {
     padding: 0.4rem 0.8rem;
   }
 
+  .nav-brand {
+    font-size: 1.5rem;
+  }
+
+  main {
+    padding: 2rem 1rem;
+  }
+
   .footer {
     flex-direction: column;
     gap: 0.8rem;
     text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .avatar-relative {
+    width: 220px;
+    height: 220px;
+  }
+
+  .avatar-image-wrapper {
+    width: 180px;
+    height: 180px;
+  }
+
+  .radar-ring-outer {
+    width: 215px;
+    height: 215px;
+  }
+
+  .radar-ring-inner {
+    width: 195px;
+    height: 195px;
+  }
+
+  .avatar-empty-placeholder::after {
+    font-size: 3.5rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 2.8rem);
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .project-heading {
+    font-size: 1.2rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1rem;
   }
 }
 

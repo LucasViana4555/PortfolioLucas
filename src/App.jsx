@@ -692,7 +692,7 @@ function App() {
                   <div className="section-line" />
                 </div>
 
-                <div className="timeline-grid" style={{ gridTemplateColumns: '1fr 1fr' }}>
+                <div className="timeline-grid certs-grid">
                   <div className="neobrutal-card">
                     <ul className="timeline-desc" style={{ paddingLeft: 0 }}>
                       {t.professional.certs.map((cert, idx) => (
@@ -751,7 +751,7 @@ function App() {
                   <div className="section-line" />
                 </div>
 
-                <div className="skills-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))' }}>
+                <div className="stats-grid">
                   {t.personal.stats.map((stat, idx) => (
                     <div className="neobrutal-card" key={idx} style={{ textAlign: 'center', padding: '1.5rem 1rem' }}>
                       <h4 style={{ fontFamily: 'var(--font-mono)', fontSize: '2rem', color: 'var(--accent-purple)', fontWeight: 800, marginBottom: '0.5rem' }}>
