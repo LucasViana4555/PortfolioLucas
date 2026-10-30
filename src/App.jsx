@@ -80,7 +80,7 @@ const content = {
       ],
       certs: [
         { label: "Microsoft Azure Fundamentals (AZ-900)", link: "https://learn.microsoft.com/pt-br/users/LucasViana4555/credentials/F9B81537E49B7888" },
-        "Google AI Essentials V1 – Coursera / Credly",
+        { label: "Google AI Essentials V1 – Coursera / Credly", link: "https://www.credly.com/earner/earned/share/f3677763-b56b-4763-a2b9-8492132c4850" },
         "Monitor de Programação Orientada a Objetos (Serra Dourada)",
         "Idioma: Inglês (Intermediário)",
         "Idioma: Português (Nativo)"
@@ -214,7 +214,7 @@ const content = {
       ],
       certs: [
         { label: "Microsoft Azure Fundamentals (AZ-900)", link: "https://learn.microsoft.com/pt-br/users/LucasViana4555/credentials/F9B81537E49B7888" },
-        "Google AI Essentials V1 – Coursera / Credly",
+        { label: "Google AI Essentials V1 – Coursera / Credly", link: "https://www.credly.com/earner/earned/share/f3677763-b56b-4763-a2b9-8492132c4850" },
         "OOP Teaching Assistant Certificate (Serra Dourada)",
         "Language: English (Intermediate)",
         "Language: Portuguese (Native)"
