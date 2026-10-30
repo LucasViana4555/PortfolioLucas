@@ -79,6 +79,7 @@ const content = {
         }
       ],
       certs: [
+        { label: "Microsoft Azure Fundamentals (AZ-900)", link: "https://learn.microsoft.com/pt-br/users/LucasViana4555/credentials/F9B81537E49B7888" },
         "Google AI Essentials V1 – Coursera / Credly",
         "Monitor de Programação Orientada a Objetos (Serra Dourada)",
         "Idioma: Inglês (Intermediário)",
@@ -212,6 +213,7 @@ const content = {
         }
       ],
       certs: [
+        { label: "Microsoft Azure Fundamentals (AZ-900)", link: "https://learn.microsoft.com/pt-br/users/LucasViana4555/credentials/F9B81537E49B7888" },
         "Google AI Essentials V1 – Coursera / Credly",
         "OOP Teaching Assistant Certificate (Serra Dourada)",
         "Language: English (Intermediate)",
@@ -726,7 +728,13 @@ function App() {
                   <div className="neobrutal-card">
                     <ul className="timeline-desc" style={{ paddingLeft: 0 }}>
                       {t.professional.certs.map((cert, idx) => (
-                        <li key={idx} style={{ fontSize: '1.05rem', marginBottom: '0.8rem' }}>{cert}</li>
+                        <li key={idx} style={{ fontSize: '1.05rem', marginBottom: '0.8rem' }}>
+                          {typeof cert === 'object' && cert.link ? (
+                            <a href={cert.link} target="_blank" rel="noreferrer" style={{ color: 'var(--accent-purple)', textDecoration: 'underline', fontWeight: 600 }}>
+                              {cert.label}
+                            </a>
+                          ) : cert}
+                        </li>
                       ))}
                     </ul>
                   </div>
